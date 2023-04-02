@@ -133,11 +133,9 @@
         transform: translateY(10%);
       }
       input[type="submit"]:hover {
-        background: linear-gradient(
-          90deg,
-          rgba(242, 48, 48, 0.4) 0%,
-          rgba(242, 203, 5, 0.4) 100%
-        );
+        //background: hsl(45, 15%, 10%);
+        background: hsl(45, 44%, 10%);
+        color: white;
       }
       .invalidField {
         border: 1px solid red;
