@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+:root {
+  --font-family: "Jost", sans-serif;
+  --font-family-futura: "Futura";
+
+  --background-black: #1a1a1af0;
+  --primary-color-black: #e6e4e4;
+  --primary-color-black-hover: #eae8e8;
+  --secondary-color-black: #e5e5e6da;
+  --color-green: #267365;
+  --color-yellow: #f2cb05;
+  --color-orange-primary: #f28705;
+  --color-orange-secondary: #f29f05;
+  --color-red: #f23030;
+  --img-border: #ffd890;
+}
+
+.max__block {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+.max_padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+body {
+  min-width: 350px;
+  font-family: "jost", sans-serif;
+}
+
+#arrow {
+  display: inline-block;
+  width: fit-content;
+  font-weight: bolder;
+  color: var(--color-yellow);
+  background: #024959;
+  border: 0.5px solid white;
+  padding: 0 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-inline-start: 10px;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 400px and up)
+$small: 400px;
+
+// Medium devices (tablets, 768px and up)
+$medium: 768px;
+
+// Large devices (desktops, 992px and up)
+$desktop: 992px;
+
+// X-Large devices (large desktops, 1200px and up)
+$xl: 1200px;
+
+// XX-Large devices (larger desktops, 1400px and up)
+$xxl: 1400px;
+
+:root {
+  --font-size700px: 150%;
+}
