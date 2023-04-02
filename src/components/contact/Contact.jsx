@@ -47,29 +47,34 @@ export default function Contact() {
     <div>
       {status == "SUCCESS" && <p>Message Envoyé Avec succès</p>}
       <section className={`section ${css.sectionContact}`}>
-        <span id="error" style={{ display: "none" }}>
-          0
-        </span>
-
-        <div className={`${css.contactContainer}`}>
+        <div className={` max__block max_padding ${css.container}`}>
           <h1>Me contacter</h1>
-          <form onSubmit={handleSubmit} className={`${css.contact}`}>
+
+          <p>
+            {`N'hésitez pas à m'envoyer un petit message, je suis à la recherche d'un `}
+            <mark>stage</mark>
+            {` en ce momemnt 😇.`}
+          </p>
+          <form onSubmit={handleSubmit} className={`${css.form}`}>
             <InputField
               name="fullName"
               handleChange={handleChange}
               value={values.fullName}
+              placeholder="Nom & prénom"
               type="text"
             />
             <InputField
               name="email"
               handleChange={handleChange}
               value={values.email}
+              placeholder="Votre Email"
               type="email"
             />
             <TextareaField
               name="message"
               handleChange={handleChange}
               value={values.message}
+              placeholder="Votre message"
             />
             <input type="submit" value="Envoyé" />
           </form>

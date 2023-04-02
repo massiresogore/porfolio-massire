@@ -1,17 +1,15 @@
 export default function InputField(props) {
-  const { name, label, type, value, handleChange } = props;
+  const { name, placeholder, type, value, handleChange } = props;
   return (
-    <div>
-      <label htmlFor={name}>
-        {label}
-        <input
-          name={name}
-          onChange={handleChange}
-          type={type}
-          value={value}
-          required
-        />
-      </label>
-    </div>
+    <>
+      <input
+        name={name}
+        onChange={handleChange}
+        type={type}
+        placeholder={placeholder}
+        value={value}
+        required
+      />
+    </>
   );
 }
