@@ -51,9 +51,8 @@ export default function Contact() {
           <h1>Me contacter</h1>
 
           <p>
-            {`N'hésitez pas à m'envoyer un petit message, je suis à la recherche d'un `}
-            <mark>stage</mark>
-            {` en ce momemnt 😇.`}
+            {`N'hésitez pas à m'envoyer un petit message
+             😇.`}
           </p>
           <form onSubmit={handleSubmit} className={`${css.form}`}>
             <InputField

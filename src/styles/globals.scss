@@ -74,3 +74,24 @@ $xxl: 1400px;
 :root {
   --font-size700px: 150%;
 }
+
+#arrow {
+  display: inline-block;
+  width: fit-content;
+  font-weight: bolder;
+  color: var(--color-yellow);
+  background: #024959;
+  border: 0.5px solid white;
+  padding: 0 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-inline-start: 10px;
+}
+#arrow:hover {
+  box-shadow: 0 0 1rem rgb(155, 152, 152);
+}
+#arrow:active {
+  transform: translateX(1rem);
+}
