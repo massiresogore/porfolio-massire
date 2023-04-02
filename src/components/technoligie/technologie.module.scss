@@ -4,6 +4,7 @@
   box-shadow: 0 3px 9px black;
   border-radius: 1.5em;
   color: white;
+  background: #dee2e6;
 }
 @mixin progressBarBefor {
   display: flex;
@@ -13,23 +14,16 @@
   width: calc(var(--width, 0) * 1%);
   min-width: 1rem;
   background-color: #069;
-  //border-radius: 1em;
 
-  /* top: 0.2rem; */
-  /* left: 0.25rem; */
   width: calc(var(--width, 0) * 1%);
   min-width: 1rem;
   background-color: #069;
   border-radius: 1em 0 0 1em;
-  /* padding: 0.5em; */
   height: 100%;
   padding-inline-start: 0.5rem;
 }
 
 .technologie {
-  //margin-bottom: 2rem;
-  //padding: 2rem 0;
-
   .titre {
     text-align: center;
     font-size: 3rem;

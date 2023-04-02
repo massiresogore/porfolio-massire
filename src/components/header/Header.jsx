@@ -26,7 +26,7 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
-    function handleClickOutside(event) {
+    function handleClickOutside() {
       const viewport_width = document.documentElement.clientWidth;
       if (menuRef.current) {
         if (viewport_width <= 700) {
