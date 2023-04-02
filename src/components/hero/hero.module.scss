@@ -1,6 +1,5 @@
 .hero {
   .container {
-    // // border: 1px solid red;
     display: grid;
     grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
     grid-template-rows: minmax(50px, 80px) minmax(266px, 266px) minmax(
@@ -32,26 +31,42 @@
       max-width: 350px;
       margin: 0 auto;
       width: 400px;
-
+      overflow-y: hidden;
       @media (min-width: 700px) {
-        //position: absolute;
         position: relative;
-
         top: 5rem;
       }
+      @media (min-width: 800px) {
+        height: 350px;
+        max-height: 350px;
+        max-width: 350px;
+        top: -0.3rem;
+      }
       .person {
-        height: 266px;
-        max-height: 266px;
         background-image: url("../../../public/splash.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: 80%;
+        @media (min-width: 800px) {
+          height: 350px;
+          max-height: 350px;
+          max-width: 350px;
+          background-position: bottom;
+          background-size: 90%;
+        }
 
         img {
           position: relative;
           left: 25%;
           height: 266px;
           max-height: 266px;
+          @media (min-width: 800px) {
+            height: 350px;
+            max-height: 350px;
+            max-width: 350px;
+            left: 10%;
+            //bottom: 0.2rem;
+          }
         }
       }
     }
@@ -65,9 +80,6 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        // justify-self: end; //large
-        // grid-column: 3/4; // large
-        // grid-row: 1/2;//large
       }
     }
   }

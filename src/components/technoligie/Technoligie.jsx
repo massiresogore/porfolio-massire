@@ -37,10 +37,11 @@ export default function Technoligie() {
     <section className={css.technologie}>
       <div className={`max__block max_padding ${css.titre}`}>
         <motion.div
-        // variants={titreVariant}
-        // initial="hidden"
-        // whileInView="show"
-        // viewport={{ once: false, amount: 0.25 }}
+          // variants={titreVariant}
+          // initial="hidden"
+          // whileInView="show"
+          // viewport={{ once: false, amount: 0.25 }}
+          style={{ margin: "2rem" }}
         >
           Mes Technologies <span>.</span>
         </motion.div>

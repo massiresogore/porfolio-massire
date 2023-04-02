@@ -23,7 +23,7 @@ export default function Projet() {
               <h3>calculatrice</h3>
               <p>
                 Description du projet , une application simple pour
-                comprehension des technologies utiliser
+                comprehension des technologies utilisées
                 <a
                   id="arrow"
                   href="https://massiresogore.github.io/calculatrice/"
@@ -60,7 +60,7 @@ export default function Projet() {
               <h3>Fake banque guichet</h3>
               <p>
                 Description du projet , une application simple pour
-                comprehension des technologies utiliser
+                comprehension des technologies utilisées
                 <a
                   id="arrow"
                   href="https://massiresogore.github.io/arrayBankist/"
@@ -98,7 +98,7 @@ export default function Projet() {
               <h3>CV</h3>
               <p>
                 Description du projet , une application simple pour
-                comprehension des technologies utiliser
+                comprehension des technologies utilisées
                 <a
                   id="arrow"
                   href="https://massiresogore.github.io/calculatrice/"
@@ -132,7 +132,7 @@ export default function Projet() {
               <h3>guess</h3>
               <p>
                 Description du projet , une application simple pour
-                comprehension des technologies utiliser
+                comprehension des technologies utilisées
                 <a
                   id="arrow"
                   href="https://massiresogore.github.io/jeuNbrAleatoire/"
@@ -170,7 +170,7 @@ export default function Projet() {
               <h3>word</h3>
               <p>
                 Description du projet , une application simple pour
-                comprehension des technologies utiliser
+                comprehension des technologies utilisées
                 <a id="arrow" href="https://massiresogore.github.io/word/">
                   this
                 </a>

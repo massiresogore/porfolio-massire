@@ -104,6 +104,10 @@
       textarea::placeholder {
         font-family: var(--font-family);
         opacity: 0.5;
+        font-size: 50%;
+        @media (min-width: 700px) {
+          font-size: 80%;
+        }
       }
       &:focus-within input[type="submit"] {
         background: grey;
@@ -114,12 +118,14 @@
         outline: none;
         color: rgba(0, 0, 0, 0.5098039216);
         cursor: pointer;
-        font-size: 200%;
+        font-size: 120%;
+
         width: 60%;
         padding: 0 1rem;
         @media (min-width: 700px) {
           input[type="submit"] {
             outline: none;
+            font-size: 170%;
           }
         }
       }
