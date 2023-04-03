@@ -1,11 +1,21 @@
 footer {
-  padding: 4.5rem 0;
+  //padding: 4.5rem 0;
+  padding: 4.5rem 0 3rem;
   color: #0d2f3f;
 
   .container {
     display: flex;
-    align-items: center;
+    // align-items: center;
     justify-content: space-between;
+
+    @media (max-width: 850px) {
+      .large {
+        display: none;
+      }
+    }
+    h2 {
+      align-self: center;
+    }
     @media (max-width: 800px) {
       flex-direction: column;
       gap: 4rem;
@@ -17,6 +27,9 @@ footer {
       align-items: center;
       flex-direction: column;
       gap: 3rem;
+      @media (max-width: 700px) {
+        display: none;
+      }
 
       ul {
         position: relative;
@@ -56,6 +69,9 @@ footer {
         margin: 0;
         font-size: 200%;
         padding: 0;
+      }
+      p {
+        text-align: center;
       }
     }
 

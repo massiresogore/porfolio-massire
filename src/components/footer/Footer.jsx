@@ -7,7 +7,7 @@ export default function Footer() {
     <footer id="footer" className={css.footer}>
       <div className={`max__block max_padding ${css.container}`}>
         {/* Name */}
-        <h2>Sogore Massire </h2>
+        <h2 className={css.large}>massire.org@gmail.com</h2>
         {/* de Mossaka */}
 
         {/* icone */}
@@ -65,7 +65,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="mailto:massire.org@gmail.com">France</a>
+              <a href="mailto:massire.org@gmail.com">mail </a>
             </li>
           </ul>
         </div>

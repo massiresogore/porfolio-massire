@@ -3,6 +3,7 @@ import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Footer from "./components/footer/Footer";
+import Resumer from "./components/resumer/Resumer";
 
 export function App() {
   return (
@@ -11,6 +12,7 @@ export function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/resumer" element={<Resumer />} />
       </Routes>
       <Footer />
     </BrowserRouter>

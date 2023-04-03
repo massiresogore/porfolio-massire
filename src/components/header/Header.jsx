@@ -2,7 +2,7 @@ import css from "./header.module.scss";
 import { CgMenuOreos } from "react-icons/cg";
 import { BiPhoneCall } from "react-icons/bi";
 import { useEffect, useRef, useState } from "react";
-import { getMenuStyles, topTopBottom } from "../../utils/motion";
+import { topTopBottom } from "../../utils/motion";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
@@ -30,7 +30,7 @@ export default function Header() {
       const viewport_width = document.documentElement.clientWidth;
       if (menuRef.current) {
         if (viewport_width <= 700) {
-          setMenuOpen(true);
+          setMenuOpen(false);
         }
       }
     }
@@ -51,8 +51,12 @@ export default function Header() {
         </Link>
         <nav>
           <button
-            onClick={(event) => {
-              setMenuOpen((prev) => !prev);
+            onClick={() => {
+              //console.log(menuOpened);
+              if (menuOpened === false) {
+                setMenuOpen(true);
+              }
+              // setMenuOpen(false);
             }}
           >
             <CgMenuOreos size={30} />
@@ -61,23 +65,22 @@ export default function Header() {
             className={css.links}
             ref={menuRef}
             //a modifier pour un meilleur ui
-            style={getMenuStyles(menuOpened)}
+            style={{ left: menuOpened ? "0" : "-100%" }}
           >
             <li>
-              <Link to="#">Projet</Link>
+              <Link to="#" id="projet">
+                Projet
+              </Link>
             </li>
             <li>
               <Link to="/contact">Contact</Link>
             </li>
-            <li>
-              <a href="##">Resume</a>
+            <li className={css.resume}>
+              <Link to="/resumer">Resume</Link>
             </li>
             <li className={css.icon}>
-              <p href="##">+(33) 07 53 70 31 13</p>
-              <button
-                className="phone"
-                onClick={() => setMenuOpen((prev) => !prev)}
-              >
+              <p>+(33) 07 53 70 31 13</p>
+              <button className="phone">
                 <BiPhoneCall size={40} />
               </button>
             </li>

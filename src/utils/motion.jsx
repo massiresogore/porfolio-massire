@@ -1,7 +1,13 @@
-export const getMenuStyles = (menuOpened) => {
+// export const getMenuStyles = (menuOpened) => {
+//   if (document.documentElement.clientWidth <= 700) {
+//     ///console.log("modibe version ");
+//     return { left: menuOpened && "-100%" };
+//   }
+// };
+export const getMenuStyles = () => {
   if (document.documentElement.clientWidth <= 700) {
     ///console.log("modibe version ");
-    return { left: menuOpened && "-100%" };
+    return { left: "-100%" };
   }
 };
 

@@ -1,0 +1,53 @@
+:root {
+  --section-spacing: 3.5rem;
+  --clr-primary-100: #ffb199;
+  --clr-primary-200: #ff8a66;
+  --clr-primary-300: #ff6333;
+  --clr-primary-400: #db2c00;
+  --clr-primary-500: #661800;
+  --clr-article-100: #9fbef9;
+  --clr-article-200: #6e9ef7;
+  --clr-article-300: #3e7ef4;
+  --clr-article-400: #255b98;
+  --clr-article-500: #062560;
+  --clr-youtube-100: #f99fb6;
+  --clr-youtube-200: #f66f91;
+  --clr-youtube-300: #f33f6c;
+  --clr-youtube-400: #dd0e42;
+  --clr-youtube-500: #60061d;
+  --clr-resource-100: #e3b5db;
+  --clr-resource-200: #d68fc9;
+  --clr-resource-300: #ba45a5;
+  --clr-resource-400: #7b2d6d;
+  --clr-resource-500: #381531;
+  --clr-course-100: #80e5de;
+  --clr-course-200: #56dcd3;
+  --clr-course-300: #23a9a0;
+  --clr-course-400: #1a7f78;
+  --clr-course-500: #115550;
+  --clr-neutral-100: #fff;
+  --clr-neutral-200: #dedede;
+  --clr-neutral-300: #ccc;
+  --clr-neutral-700: #666;
+  --clr-neutral-800: #4d4d4d;
+  --clr-neutral-900: #262626;
+  --fs-300: 1rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.563rem;
+  --fs-600: 1.953rem;
+  --fs-700: 2.441rem;
+  --fs-800: 3.052rem;
+  --font: clamp(var(--fs-600), 1rem + 5vw, 4rem);
+}
+h1,
+h2,
+h3,
+h4 {
+  --clr-neutral-800: #4d4d4d;
+  --font-weight: 700;
+  --font-width: 80;
+  color: var(--clr-neutral-800);
+  font-stretch: 100%;
+  font-weight: 400;
+  line-height: 1.1;
+}

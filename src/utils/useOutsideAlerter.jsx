@@ -10,6 +10,7 @@ export default function useOutsideAlerter({ menuRef, setMenuOpen }) {
     function handleClickOutside(event) {
       if (menuRef.current && menuRef.current.contains(event.target)) {
         if (viewport_width <= 700) {
+          console.log(menuRef.current);
           setMenuOpen(false);
         }
       }
