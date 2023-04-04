@@ -75,7 +75,7 @@ export default function Contact() {
               value={values.message}
               placeholder="Votre message"
             />
-            <input type="submit" value="Envoyé" />
+            <input type="submit" value="Envoyer" />
           </form>
         </div>
       </section>
