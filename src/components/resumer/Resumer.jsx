@@ -8,7 +8,7 @@ const Resumer = () => {
           je suis un étudiant en 3<sup>ème</sup> année de bachelor , conception
           et développement
           {` d'application`} Web et mobile nb:
-          <mark>le site est en cours de modification...</mark>
+          <mark>le site est en construction...😎</mark>
         </p>
 
         <div>
