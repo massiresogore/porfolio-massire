@@ -99,10 +99,7 @@ export default function Projet() {
               <p>
                 Description du projet , une application simple pour
                 comprehension des technologies utilisées
-                <a
-                  id="arrow"
-                  href="https://massiresogore.github.io/calculatrice/"
-                >
+                <a id="arrow" href="https://github.com/massiresogore/porfolio">
                   this
                 </a>
               </p>
