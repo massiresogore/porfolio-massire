@@ -18,6 +18,12 @@
     // background-color: var(--primary-color-black-hover);
     padding: 10px;
 
+    .toast {
+      position: absolute;
+      max-width: fit-content;
+      //top: 6rem;
+    }
+
     //text-align: center;
 
     h1 {

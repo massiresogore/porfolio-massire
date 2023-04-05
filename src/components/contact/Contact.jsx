@@ -3,6 +3,7 @@ import InputField from "./InputField";
 import TextareaField from "./TextareaField";
 import emailjs from "@emailjs/browser";
 import css from "./contact.module.scss";
+import { ToastContainer, toast } from "react-toastify";
 
 export default function Contact() {
   const [values, setValues] = useState({
@@ -28,6 +29,7 @@ export default function Contact() {
             email: "",
             message: "",
           });
+          toast.success("Message envoyé avec succès");
           setStatus("SUCCESS");
         },
         function (error) {
@@ -45,7 +47,6 @@ export default function Contact() {
 
   return (
     <div>
-      {status == "SUCCESS" && <p>Message Envoyé Avec succès</p>}
       <section className={`section ${css.sectionContact}`}>
         <div className={` max__block max_padding ${css.container}`}>
           <h1>Me contacter</h1>
@@ -54,6 +55,9 @@ export default function Contact() {
             {`N'hésitez pas à m'envoyer un petit message
              😇.`}
           </p>
+          <div style={{ position: "relative" }}>
+            <ToastContainer position="top-center" className={css.toast} />
+          </div>
           <form onSubmit={handleSubmit} className={`${css.form}`}>
             <InputField
               name="fullName"
