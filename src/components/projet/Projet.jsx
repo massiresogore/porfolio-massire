@@ -22,8 +22,8 @@ export default function Projet() {
               <h4>Javascript Project</h4>
               <h3>calculatrice</h3>
               <p>
-                Description du projet , une application simple pour
-                comprehension des technologies utilisées
+                une application simple pour comprehension des technologies
+                utilisées
                 <a
                   id="arrow"
                   href="https://massiresogore.github.io/calculatrice/"
@@ -59,8 +59,8 @@ export default function Projet() {
               <h4>Javascript Project</h4>
               <h3>Fake banque guichet</h3>
               <p>
-                Description du projet , une application simple pour
-                comprehension des technologies utilisées
+                une application simple pour comprehension des technologies
+                utilisées
                 <a
                   id="arrow"
                   href="https://massiresogore.github.io/arrayBankist/"
@@ -97,8 +97,8 @@ export default function Projet() {
               <h4>php Project </h4>
               <h3>CV</h3>
               <p>
-                Description du projet , une application simple pour
-                comprehension des technologies utilisées
+                une application simple pour comprehension des technologies
+                utilisées
                 <a id="arrow" href="https://github.com/massiresogore/porfolio">
                   this
                 </a>
@@ -128,8 +128,8 @@ export default function Projet() {
               <h4>Javascript Project</h4>
               <h3>guess</h3>
               <p>
-                Description du projet , une application simple pour
-                comprehension des technologies utilisées
+                une application simple pour comprehension des technologies
+                utilisées
                 <a
                   id="arrow"
                   href="https://massiresogore.github.io/jeuNbrAleatoire/"
@@ -166,8 +166,8 @@ export default function Projet() {
               <h4>Javascript Project</h4>
               <h3>word</h3>
               <p>
-                Description du projet , une application simple pour
-                comprehension des technologies utilisées
+                une application simple pour comprehension des technologies
+                utilisées
                 <a id="arrow" href="https://massiresogore.github.io/word/">
                   this
                 </a>
