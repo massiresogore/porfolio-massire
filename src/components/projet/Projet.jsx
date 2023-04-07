@@ -19,15 +19,12 @@ export default function Projet() {
         >
           <article className={css.articleCard}>
             <div className={css.text}>
-              <h4>Javascript Project</h4>
-              <h3>calculatrice</h3>
+              <h4>php Project </h4>
+              <h3>CV</h3>
               <p>
                 une application simple pour comprehension des technologies
                 utilisées
-                <a
-                  id="arrow"
-                  href="https://massiresogore.github.io/calculatrice/"
-                >
+                <a id="arrow" href="https://www.sogoremassire.fr/">
                   this
                 </a>
               </p>
@@ -36,17 +33,15 @@ export default function Projet() {
                 Technologies used include:
               </h4>
               <ul>
-                <li>HTML</li>
-                <li>CSS</li>
+                <li>HTML/CSS</li>
+                <li>Php</li>
                 <li>Javascript</li>
               </ul>
             </div>
-            <img
-              src={calculatrice}
-              alt="Screenshot of the Wall of Wonder Collections."
-            />
+            <img src={cv} alt="Screenshot of the Wall of Wonder Collections." />
           </article>
         </motion.div>
+
         {/* article-2 reverse */}
         <motion.div
           variants={technologieVariant}
@@ -86,6 +81,7 @@ export default function Projet() {
           </article>
         </motion.div>
         {/* article-3 normal */}
+
         <motion.div
           variants={technologieVariant}
           initial="hidden"
@@ -94,12 +90,15 @@ export default function Projet() {
         >
           <article className={css.articleCard}>
             <div className={css.text}>
-              <h4>php Project </h4>
-              <h3>CV</h3>
+              <h4>Javascript Project</h4>
+              <h3>calculatrice</h3>
               <p>
                 une application simple pour comprehension des technologies
                 utilisées
-                <a id="arrow" href="https://github.com/massiresogore/porfolio">
+                <a
+                  id="arrow"
+                  href="https://massiresogore.github.io/calculatrice/"
+                >
                   this
                 </a>
               </p>
@@ -108,12 +107,15 @@ export default function Projet() {
                 Technologies used include:
               </h4>
               <ul>
-                <li>HTML/CSS</li>
-                <li>Php</li>
+                <li>HTML</li>
+                <li>CSS</li>
                 <li>Javascript</li>
               </ul>
             </div>
-            <img src={cv} alt="Screenshot of the Wall of Wonder Collections." />
+            <img
+              src={calculatrice}
+              alt="Screenshot of the Wall of Wonder Collections."
+            />
           </article>
         </motion.div>
         {/* article-4 reverse */}
