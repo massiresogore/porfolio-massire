@@ -8,7 +8,7 @@ import { DiSymfonyBadge } from "react-icons/di";
 import { useEffect, useState } from "react";
 import callProgrressBar from "../../utils/CallprogressBar";
 import { motion } from "framer-motion";
-import { technologieVariant, titreVariant } from "../../utils/motion";
+import { technologieVariant } from "../../utils/motion";
 
 export default function Technoligie() {
   const [progressBare] = useState("progress-bar");
@@ -36,15 +36,9 @@ export default function Technoligie() {
   return (
     <section className={css.technologie}>
       <div className={`max__block max_padding ${css.titre}`}>
-        <motion.div
-          // variants={titreVariant}
-          // initial="hidden"
-          // whileInView="show"
-          // viewport={{ once: false, amount: 0.25 }}
-          style={{ margin: "2rem" }}
-        >
+        <div style={{ margin: "2rem" }}>
           Mes Technologies <span>.</span>
-        </motion.div>
+        </div>
       </div>
       <motion.div
         variants={technologieVariant}
@@ -62,7 +56,6 @@ export default function Technoligie() {
           <div
             className={`${progressBareHtml} ${css.progressBarHtml}`}
             style={{ "--width": "0" }}
-            // data-label="loading..."
           ></div>
         </div>
         <div className={css.tech}>
@@ -75,7 +68,6 @@ export default function Technoligie() {
           <div
             className={`${progressBareCss} ${css.progressBarCss}`}
             style={{ "--width": "0" }}
-            // data-label="loading..."
           ></div>
         </div>
         <div className={css.tech}>
@@ -88,7 +80,6 @@ export default function Technoligie() {
           <div
             className={`${progressBareJs} ${css.progressBarJs}`}
             style={{ "--width": "0" }}
-            // data-label="loading..."
           ></div>
         </div>
 
@@ -102,7 +93,6 @@ export default function Technoligie() {
           <div
             className={`${progressBare} ${css.progressBar}`}
             style={{ "--width": "0" }}
-            // data-label="loading..."
           ></div>
         </div>
         <div className={css.tech}>
@@ -115,7 +105,6 @@ export default function Technoligie() {
           <div
             className={`${progressBarePhp} ${css.progressBarePhp}`}
             style={{ "--width": "0" }}
-            // data-label="loading..."
           ></div>
         </div>
         <div className={css.tech}>
@@ -128,7 +117,6 @@ export default function Technoligie() {
           <div
             className={`${progressBareSymfony} ${css.progressBareSymfony}`}
             style={{ "--width": "0" }}
-            // data-label="loading..."
           ></div>
         </div>
       </motion.div>

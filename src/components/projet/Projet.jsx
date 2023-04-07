@@ -108,7 +108,7 @@ export default function Projet() {
                 Technologies used include:
               </h4>
               <ul>
-                <li>HTML-CSS</li>
+                <li>HTML/CSS</li>
                 <li>Php</li>
                 <li>Javascript</li>
               </ul>
