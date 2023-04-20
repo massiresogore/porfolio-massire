@@ -1,10 +1,11 @@
 import css from "./header.module.scss";
 import { CgMenuOreos } from "react-icons/cg";
-import { BiPhoneCall } from "react-icons/bi";
+import { BiCopy } from "react-icons/bi";
 import { useEffect, useRef, useState } from "react";
 import { topTopBottom } from "../../utils/motion";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
 
 export default function Header() {
   const menuRef = useRef(null);
@@ -36,6 +37,17 @@ export default function Header() {
     }
     document.addEventListener("mousedown", handleClickOutside);
   }, [menuRef]);
+
+  const saveToClipBoard = () => {
+    if (navigator.clipboard) {
+      try {
+        navigator.clipboard.writeText("0753703113");
+        toast.success("Numéro copié");
+      } catch (error) {
+        toast.error("Ne peut pas copier");
+      }
+    }
+  };
 
   return (
     <header className={css.header} style={{ boxShadow: headerShadow }}>
@@ -79,14 +91,19 @@ export default function Header() {
               <Link to="/resumer">Resume</Link>
             </li>
             <li className={css.icon}>
-              <p>+(33) 07 53 70 31 13</p>
-              <button className="phone">
-                <BiPhoneCall size={40} />
-              </button>
+              <p title="copy number">
+                +(33) 07 53 70 31 13{" "}
+                <BiCopy onClick={saveToClipBoard} size={20} />
+              </p>
+
+              {/* <button className="phone" >
+                <BiCopy size={40} />
+              </button> */}
             </li>
           </ul>
         </nav>
       </motion.div>
+      <ToastContainer position="top-left" />
     </header>
   );
 }
