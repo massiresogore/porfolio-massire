@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 export function App() {
   return (
-    <BrowserRouter>
+    <>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -16,6 +16,6 @@ export function App() {
         <Route path="/resumer" element={<Resumer />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
