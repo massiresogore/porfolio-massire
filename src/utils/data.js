@@ -1,6 +1,6 @@
 import cv from "../asset/images/cv.png";
 import calculatrice from "../asset/images/calculatrice.png";
-import bankist from "../asset/images/bankist.png";
+import cart from "../asset/images/cart.png";
 import guess from "../asset/images/guess.png";
 import word from "../asset/images/word.png";
 //import css from "./projet.module.scss";
@@ -14,7 +14,7 @@ export const projetData = [
     subtile: "CV",
     technologie: "Technologies used include:",
     paragraph:
-      " une application simple pour comprehension des technologies utilisées",
+      "une application simple pour comprehension des technologies utilisées",
     language: ["HTML/CSS", "Php", "Javascript"],
     image: cv,
     href: "https://www.sogoremassire.fr/",
@@ -24,14 +24,14 @@ export const projetData = [
     motionClass: "reverse",
     articleClass: "articleCartReverse",
     textClass: "text2",
-    title: "Javascript Project",
-    subtile: "Fake banque guichet",
+    title: "UseReducer project",
+    subtile: "gestion panier",
     paragraph:
-      " une application simple pour comprehension des technologies utilisées",
-    href: "https://massiresogore.github.io/arrayBankist/",
+      "mis en place de context global, de loader , utilisation de l'objet Map(),useReducer,d'api pour gérer le panier ",
+    href: "https://cart-kappa-one.vercel.app/",
     technologie: "Technologies used include:",
-    language: ["HTML", "Css", "Javascript"],
-    image: bankist,
+    language: ["React", "CssModule", "Javascript"],
+    image: cart,
   },
   {
     id: 3,
