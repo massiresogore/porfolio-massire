@@ -26,9 +26,8 @@ const Resumer = () => {
               {` d'application`} web et mobile,{" "}
               {`d'où  j'ai appris et obtnenue une base`} en php html css et
               symfony et depuis je suis accros, et en septempbre 2022, je suis
-              tombé amoureux de javascript😌. actuellement {`j'apprends`} un peu
-              plus javascript, react et en même temps node js, que du bonheur
-              🥰.
+              tombé amoureux de javascript😌. tous les jours {`j'apprends`} un
+              peu plus de javascript et react que du bonheur 🥰.
             </p>
           </article>
         </div>
