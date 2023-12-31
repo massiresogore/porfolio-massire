@@ -6,7 +6,10 @@ import { FaReact } from "react-icons/fa";
 import { TbBrandPhp } from "react-icons/tb";
 import { DiSymfonyBadge } from "react-icons/di";
 import { useEffect, useState } from "react";
+import { FaJava } from "react-icons/fa";
+import { SiSpring } from "react-icons/si";
 import callProgrressBar from "../../utils/CallprogressBar";
+import { FaLaravel } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { technologieVariant } from "../../utils/motion";
 
@@ -55,8 +58,8 @@ export default function Technoligie() {
           </div>
           <div
             className={`${progressBareHtml} ${css.progressBarHtml}`}
-            style={{ "--width": "0" }}
-          ></div>
+            style={{ "--width": "0" }}>
+          </div>
         </div>
         <div className={css.tech}>
           <div className={css.iconame}>
@@ -90,11 +93,13 @@ export default function Technoligie() {
             </div>
             <div className={css.name}>react</div>
           </div>
+
           <div
             className={`${progressBare} ${css.progressBar}`}
             style={{ "--width": "0" }}
           ></div>
         </div>
+
         <div className={css.tech}>
           <div className={css.iconame}>
             <div className={css.logo}>
@@ -105,6 +110,46 @@ export default function Technoligie() {
           <div
             className={`${progressBarePhp} ${css.progressBarePhp}`}
             style={{ "--width": "0" }}
+          ></div>
+        </div>
+        {/*Java*/}
+        <div className={css.tech}>
+          <div className={css.iconame}>
+            <div className={css.logo}>
+              <FaJava size={50} style={{ color: "#02CDF1" }}/>
+            </div>
+            <div className={css.name}>JAVA</div>
+          </div>
+          <div
+              className={`${progressBare} ${css.progressBar}`}
+              style={{ "--width": "0" }}
+          ></div>
+
+        {/*****************Spring*************/}
+        </div><div className={css.tech}>
+          <div className={css.iconame}>
+            <div className={css.logo}>
+              <SiSpring size={50} style={{ color: "!important#6cb52d" }} />
+            </div>
+            <div className={css.name}>Spring-boot</div>
+          </div>
+          <div
+              className={`${progressBare} ${css.progressBar}`}
+              style={{ "--width": "0" }}
+          ></div>
+        </div>
+
+        {/***************** Laravel *************/}
+        <div className={css.tech}>
+          <div className={css.iconame}>
+            <div className={css.logo}>
+              <FaLaravel size={50} style={{ color: "!important#6cb52d" }}  />
+            </div>
+            <div className={css.name}>Laravel</div>
+          </div>
+          <div
+              className={`${progressBare} ${css.progressBar}`}
+              style={{ "--width": "0" }}
           ></div>
         </div>
         <div className={css.tech}>
