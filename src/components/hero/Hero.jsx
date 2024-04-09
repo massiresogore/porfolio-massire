@@ -49,9 +49,9 @@ export default function Hero() {
           viewport={{ once: false, amount: 0.25 }}
           className={css.row3}
         >
-          <span>étudiant</span>
+          {/* <span>étudiant</span> */}
           <br />
-          <span>en 3eme année</span>
+          {/* <span>en 3eme année</span> */}
         </motion.div>
       </div>
     </section>
