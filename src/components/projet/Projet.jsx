@@ -42,7 +42,7 @@ export default function Projet() {
                   <p className="">
                     {paragraph}
                     <a id="arrow" href={href}>
-                      this
+                      menu
                     </a>
                   </p>
                   <h4 style={{ color: "#f2cb05", fontSize: "2rem" }}>

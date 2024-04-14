@@ -11,7 +11,7 @@ const Resumer = () => {
         </p>
 
         <div>
-          <article className="1">
+        <article className="1">
             <h2>Comment je suis arrivé la ?</h2>
             <p>
               {`j'ai`} commencé à apprendre le web en septembre 2021, en 2022
@@ -22,14 +22,35 @@ const Resumer = () => {
               >
                 ilci
               </a>{" "}
-             afin {`d'ontenir`} le titre de concepteur et développeur {` d'applications`} Web et mobile
-
-              {` au sein duquel j'ai appris`}  PHP HTPL CSS et Javascript.
-              {/*symfony et depuis je suis accros, et en septempbre 2022, je suis*/}
-              {/*tombé amoureux de javascript 😌. tous les jours {`j'apprends`} un*/}
-              {/*peu plus de javascript et react que du bonheur 🥰.*/}
+             afin {`d'ontenir`} le titre de concepteur et développeur Informatique.
             </p>
           </article>
+        <article className="2">
+            <h2>Mes Skills ?</h2>
+            &nbsp;
+              Pour l'instant je fais : 
+              &nbsp;<h3>* Language</h3>
+              <ul>
+                <li>Java Script/Html/Css</li>
+                <li>Php</li>
+                <li>Java</li>
+              </ul>
+              &nbsp;
+                <h3>* Frontend framework</h3>
+              <ul>
+                <li>ReactJs/TypeScript</li>
+                <li>NextJs/TypeScript</li>
+                <li>VueJs</li>
+              </ul>
+              &nbsp;
+                <h3>* Backend framework</h3>
+              <ul>
+                <li>Laravel</li>
+                <li>Spring boot</li>
+              </ul>
+
+          </article>
+         
         </div>
       </div>
     </section>
