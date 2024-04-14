@@ -21,7 +21,12 @@ export const projetData = [
       sur le règlement général de la protection des données -RGPD, dans ce projet J’ai mis en
       pratique les concepts fondamentaux de la programmation orienté objet en l’occurrence, la
       composition, l’héritage, l’encapsulation etc.`,
-    language: ["Java/Thymeleaf", "Spring-boot", "Spring-security","TailwaindCss"],
+    language: ["Java/Thymeleaf",
+     "Spring-boot",
+      "Spring-security",
+      "TailwaindCss",
+      "Hibernate"
+    ],
     image: blog,
     href: "/",
   },
