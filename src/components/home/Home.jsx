@@ -5,9 +5,10 @@ import Projet from "../projet/Projet";
 export default function Home() {
   return (
     <>
-      <Hero />
+      <div style="font-size:6rem;text-align:center">Site en reconstruction</div>
+     /* <Hero />
       <Technoligie /> 
-      <Projet />
+      <Projet />*/
     </>
   );
 }
