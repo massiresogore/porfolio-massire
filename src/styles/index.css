@@ -7,3 +7,37 @@ button {
   background-color: initial;
   border: none;
 }
+a{
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: rgba(66, 153, 225, 1);
+    color: black;
+    border: none;
+    margin: 1rem;
+    transition: color, background-color .5s ease-in-out;
+    cursor: pointer;
+    font-size: var(--h6);
+    font-weight: 900;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    opacity: .5;
+    animation: leftRigth 0.4s ease-in-out infinite alternate-reverse;
+}
+a:hover{
+    color: white;
+    background-color: #222222;
+}
+
+@keyframes leftRigth {
+    from{
+        transform: translateX(-10px);
+
+    }
+    to{
+        transform: translateX(0);
+    }
+}
