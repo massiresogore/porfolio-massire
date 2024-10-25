@@ -9,13 +9,14 @@ import "react-toastify/dist/ReactToastify.css";
 export function App() {
   return (
     <>
-      <Header />
+      {/*  <Header />*/}
+     
       <Routes>
        <Route path="/" element={<Home />} />
            {/* <Route path="/contact" element={<Contact />} />
         <Route path="/resumer" element={<Resumer />} />*/}
       </Routes>
-      <Footer />
+      {/*  <Footer /> */}
     </>
   );
 }
