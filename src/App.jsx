@@ -12,8 +12,8 @@ export function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resumer" element={<Resumer />} />
+        /*  <Route path="/contact" element={<Contact />} />
+        <Route path="/resumer" element={<Resumer />} />*/
       </Routes>
       <Footer />
     </>
