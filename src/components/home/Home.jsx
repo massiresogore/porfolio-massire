@@ -5,7 +5,8 @@ import Projet from "../projet/Projet";
 export default function Home() {
   return (
     <>
-      <div style="font-size:6rem;text-align:center">Site en reconstruction</div>
+          <a href="ancien-formulaire/ancien_formulaire.html">Site en cours de reconstruction. Veuillez excuser la gêne occasionnée.</a>
+
      /* <Hero />
       <Technoligie /> 
       <Projet />*/
