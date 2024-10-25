@@ -7,9 +7,9 @@ export default function Home() {
     <>
           <a href="ancien-formulaire/ancien_formulaire.html">Site en cours de reconstruction. Veuillez excuser la gêne occasionnée.</a>
 
-     /* <Hero />
+      {/* <Hero />
       <Technoligie /> 
-      <Projet />*/
+      <Projet />*/}
     </>
   );
 }
